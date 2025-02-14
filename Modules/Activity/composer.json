@@ -1,0 +1,25 @@
+{
+    "name": "modules/activity",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Activity\\App\\": "app/",
+            "Modules\\Activity\\Database\\Factories\\": "database/factories/",
+            "Modules\\Activity\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Activity\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "spatie/laravel-activitylog": "^4.8"
+    }
+}
